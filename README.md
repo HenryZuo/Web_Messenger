@@ -12,16 +12,16 @@ Needed some practice with a full-stack project. Plus, there's no iMessage on PC.
 ![login](./images/login.PNG)
 
 ### Contact List
-![contacts](./images/contacts.png)
+![contacts](./images/contacts.PNG)
 
 ### View Messages
-![viewmessages](./images/viewmessages.png)
+![viewmessages](./images/viewmessages.PNG)
 
 ### New Contact
-![newcontact](./images/newcontact.png)
+![newcontact](./images/newcontact.PNG)
 
 ### Send Text Message
-![sendmessage](./images/sendmessage.png)
+![sendmessage](./images/sendmessage.PNG)
 
 ## Key Tools
 
