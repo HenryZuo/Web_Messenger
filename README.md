@@ -9,7 +9,7 @@ Needed some practice with a full-stack project. Plus, there's no iMessage on PC.
 
 ### User Authentication
 
-![login](./images/login.png)
+![login](./images/login.PNG)
 
 ### Contact List
 ![contacts](./images/contacts.png)
