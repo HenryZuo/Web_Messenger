@@ -1,0 +1,25 @@
+<div class="container-fluid p-2 pt-5" style="width:40%">
+  <h1 class="mb-4"> Contacts! </h1>
+  <a role="button" class="btn btn-primary mt-1 mb-1" href='/contacts/new'>Add Contact</a>
+  <a role="button" class="btn btn-primary mt-1 mb-1 mr-4" href='/messages'>View all messages</a>
+  <a role="button" class="btn btn-danger mt-1 mb-1" href='/logout'>Logout</a>
+  {{#each contacts}}
+<div class="card mt-2 mb-2">
+  <div class="card-block p-3">
+    <h4 class="card-title">{{name}}</h4>
+    <p class="card-text"> Phone: {{phone}}</p>
+  </div>
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item">
+      <a href="/messages/send/{{_id}}" class="card-link">Send Text</a>
+    </li>
+    <li class="list-group-item">
+      <a href="/messages/{{_id}}" class="card-link">View Messages</a>
+    </li>
+    <li class="list-group-item">
+      <a href="/contacts/{{_id}}" class="card-link">Edit Contact</a>
+    </li>
+  </ul>
+  {{/each}}
+</div>
+</div>
